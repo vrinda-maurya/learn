@@ -3,6 +3,7 @@
     padding: 0%;
     background-color: #fafafa;
     /* background-color: orange; */
+    /* background-color: rgba(var(--i1d,38,38,38),1); */
 }
 .image{
     max-width: 170px;
@@ -16,12 +17,16 @@
     margin: 650px;
     margin-left: 550px;
     margin-top: 60px;
-    background-color: white;
+    background-color: white ;
     width: fit-content;
     height: 450px;
     border-style: solid;
     border-radius: 2px;
     border-color: black;
+    border-width: thin;
+    border-style: inset;
+    
+    
     
     
     
@@ -34,6 +39,7 @@
     float: right;
     border-width: 50px;
     background-color: white;
+    
 
 }
 .text{
@@ -43,6 +49,7 @@
     border-radius: 4px;
     padding-left: 3px;
     background-color: white;
+    border-width: thin;
     
 }
 
@@ -54,6 +61,7 @@ button{
     background-color:
     #0095f6;
     color: white;
+    border-width: thin;
 }
 
 h4{
@@ -67,4 +75,6 @@ h6{
     font-family: 'Open Sans', sans-serif;
     color: #385185;
     background-color: white;
+    font-weight: lighter;
+    font-size: 12px;
 }
