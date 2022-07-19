@@ -1,23 +1,25 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     background-color: #fafafa;
     /* background-color: orange; */
     /* background-color: rgba(var(--i1d,38,38,38),1); */
 }
-.image{
+
+.image {
     max-width: 170px;
     max-height: 100%;
     object-fit: contain;
     padding-left: 55px;
     background-color: white;
-    
+
 }
-.container{
+
+.container1 {
     margin: 650px;
     margin-left: 550px;
     margin-top: 60px;
-    background-color: white ;
+    background-color: white;
     width: fit-content;
     height: 450px;
     border-style: solid;
@@ -25,13 +27,9 @@
     border-color: black;
     border-width: thin;
     border-style: inset;
-    
-    
-    
-    
-    
 }
-.form{
+
+.form {
     border-color: black;
     padding: 10px;
     margin: 20px;
@@ -39,10 +37,9 @@
     float: right;
     border-width: 50px;
     background-color: white;
-    
-
 }
-.text{
+
+.text {
     width: 100%;
     margin-top: 10px;
     height: 40px;
@@ -50,31 +47,47 @@
     padding-left: 3px;
     background-color: white;
     border-width: thin;
-    
+
 }
 
-button{
+button {
     width: 100%;
     margin-top: 10px;
     height: 35px;
     border-radius: 5px;
     background-color:
-    #0095f6;
+        #0095f6;
     color: white;
     border-width: thin;
 }
 
-h4{
+h4 {
     text-align: center;
     color: #385185;
     font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
-h6{
+
+h6 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: #385185;
     background-color: white;
     font-weight: lighter;
     font-size: 12px;
+}
+
+.container2 {
+    border-style: solid;
+    border-width: thin;
+    height: 50%;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-bottom: 10px;
+    /* margin: 0 10px 10px 50px; */
+    padding-bottom: 50px;
+    width: 20%;
+
+
+
 }
