@@ -24,7 +24,7 @@ h1{
        
         height: 209px;
         width: 212px;
-       margin-top: 15px;
+       margin-top: 20px;
        margin-left: 180px;
     }
     .intro{
@@ -36,4 +36,35 @@ h1{
     line-height: 1.625;
     color: black;
 
+    }
+    .side{
+        font-weight: 220;
+        font-size: 1.875rem;
+        letter-spacing: .1em;
+         margin-left:870px ;
+         margin-top: -206px;
+text-decoration: underline;
+text-decoration-color: red ;
+
+    }
+    .container1{
+         margin-top: 150px;
+         margin-left: 130px;
+         margin-right: 500px;
+    }
+    .heading{
+        color: black;
+        /* font-style: bold; */
+        font-weight: 600;
+        font-size: 1.125rem;
+        text-align: left;
+        letter-spacing: -1px;
+        line-height: 1.625;
+
+        
+       
+    }
+    h6{
+        color:
+        #6060ff;
     }
