@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: white;
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: .1em;
+    word-spacing: normal;
+    flex-direction: row;
+    display: flex;
+  
+    
+    /* padding-left: 50px; */
+}
+h1{
+    padding-left: 200px;
+    padding-top: 10px;
+    }
+    .round_image{
+        border-radius: 9999px;
+       
+        height: 209px;
+        width: 212px;
+       margin-top: 15px;
+       margin-left: 180px;
+    }
+    .intro{
+        font-weight: 220;
+    font-size: 1.875rem;
+    letter-spacing: .1em;
+    margin-left: 250px;
+    margin-top: -200px;
+    line-height: 1.625;
+    color: black;
+
+    }
