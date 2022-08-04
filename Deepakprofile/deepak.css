@@ -19,7 +19,7 @@ h1{
     padding-left: 200px;
     padding-top: 10px;
     }
-    .round_image{
+ .round_image{
         border-radius: 9999px;
        
         height: 209px;
@@ -48,9 +48,11 @@ text-decoration-color: red ;
 
     }
     .container1{
-         margin-top: 150px;
+         margin-top: -1860px;
          margin-left: 130px;
-         margin-right: 500px;
+         margin-right: 480px;
+         border-radius: 9px;
+         border-top-left-radius: 9px;
     }
     .heading{
         color: black;
@@ -67,4 +69,36 @@ text-decoration-color: red ;
     h6{
         color:
         #6060ff;
+        font-size: .75rem;
+        font-weight: 200;
     }
+    .end{
+        background-color:#1a202c;
+    color: whitesmoke;
+    font-weight: 100;
+    height: 64px;
+    }
+    .end1{
+        margin-left: 180px;
+        padding-top: 20px;
+    }
+    /* .list{
+        display: inline;
+        color: black;
+    } */
+
+  .rounded-lg{
+    margin-left: 1070px;
+    margin-right: 100px;
+    border-width: 1px;
+   border-radius: 9px;
+   font-family:  system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;;
+ line-height: 1.6;
+ /* box-sizing: border-box; */
+ 
+ margin-top: 1rem;
+height:min-content;
+ 
+ }
+
+  

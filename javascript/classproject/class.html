@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>HTML Forms</h2>
+
+    <form action="/action_page.php">
+        <label for="fname"> name:</label><br>
+        <input type="text" id="id_name"><br>
+
+        <label for="lname">age:</label><br>
+        <input type="number" id="id_age"><br>
+
+        <label for="lname">roll no.:</label><br>
+        <input type="number" id="id_rollno"><br><br>
+
+        <input type="button" onclick="buttonclicked()" value="Submit">
+    </form>
+
+
+
+
+
+    <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>RollNo</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+       <script>
+        var studentInfo = [];
+        function buttonclicked() {
+
+            var studentName = document.getElementById("id_name").value.trim();
+
+            var studentAge = parseInt(document.getElementById("id_age").value);
+            var studentRollNo = parseInt(document.getElementById("id_rollno").value);
+            if (studentName == '') {
+                alert('student name cannot be empty');
+            } else if (studentName.length < 3 || studentName.length > 20) {
+                alert('name length should be between 3-20');
+
+            }
+            else if (studentAge == '') {
+                alert('student age cannot be empty')
+
+            }
+            else if (studentAge < 5 || studentAge > 20) {
+                alert('age shoul be between 5-20')
+
+            }
+
+            else if (studentRollNo == '') {
+                alert("student roll no cannot be empty");
+            }
+
+
+            else {
+                for (i = 0; i < studentInfo.length; i++) {
+
+                    if (studentInfo[i].rollNo == studentRollNo) {
+                        alert('roll no cannot be duplicate')
+                        return;
+                    }
+                }
+                var studentObject = {
+                    name: studentName,
+                    age: studentAge,
+                    rollNo: studentRollNo
+                }
+                studentInfo.push(studentObject);
+                console.log(studentInfo);
+                document.getElementById("id_name").value = "";
+                document.getElementById("id_age").value = "";
+                document.getElementById("id_rollno").value = "";
+            }
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>
