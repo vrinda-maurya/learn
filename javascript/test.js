@@ -70,11 +70,13 @@
 // // console.log(sum);
 
 
-// var myName=["parveen","vicky","rasmi","shakti"];
-// function printName(name){
-//     console.log(" my name is : "+name);
+var myName=["parveen","vicky","rasmi","shakti"];
+function printName(name){
+    console.log(` my name is : ${name}`);
 
-// }
+}
+//  printName("parveen");
+
 // for(i=0;i<myName.length;i++){
 //     printName(myName[i]);
 // }
@@ -88,17 +90,26 @@ var bioData = [{
 {
     name: 'vrinda',
     age: 25
+}];
+// console.log(bioData[1].age+bioData[1].name);
+        //  OR
+// console.log(bioData[1].name);
+
+
+for(i=0;i<bioData.length;i++){
+    console.log(bioData[i].name+bioData[i].age)
 }
-];
+
+// console.log(bioData.length);
+
 var kopalBioData={
     name: 'kopal',
     age: 26
 }
-// bioData.push(kopalBioData);
+bioData.push(kopalBioData);
 
-// for(i=0;i<bioData.length;i++){
-//     console.log(bioData[i].name+bioData[i].age)
-// }
-// console.log(bioData[1].age);
-console.log(Object.keys(kopalBioData));
-console.log(Object.keys(kopalBioData).length);
+
+// console.log(Object.keys(kopalBioData));
+// console.log(Object.keys(kopalBioData).length);
+
+
