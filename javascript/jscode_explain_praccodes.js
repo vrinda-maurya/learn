@@ -11,7 +11,7 @@
 
 
 
-//   for(var i=1;i<=50;i++){ 
+//   for(var i=1;i<=50;i++){
 //     if(i%3==0){
 //         console.log("Multiple's of 3"+" = " + i);
 //     }
@@ -20,7 +20,7 @@
 
 //     }
 
-//   } 
+//   }
 
 // console.log("Hello World");
 
@@ -73,7 +73,7 @@
 // console.log(myArr.length);
 
 // var str="vrinda";
-// console.log(str.length-1); 
+// console.log(str.length-1);
 
 
 
@@ -110,7 +110,7 @@
 // function compareEquality(a,b){
 //     if(a==b){
 //         return "Equal";
-//     }                            
+//     }
 //     return 'Not Equal';
 // }
 // console.log(compareEquality(10, "10"))          *(here string is also converted into number thats why its equal i.e a=b)
@@ -182,7 +182,7 @@
     {
         type: "flowers",
         list: [
-            "rose",                         
+            "rose",
             "sunflower",
             "lotus"
         ]
@@ -197,7 +197,7 @@
     }
 ];
  var secondTree =(myPlants[1].list[4]);
-  console.log(secondTree);  
+  console.log(secondTree);
 
 OR
 
@@ -239,7 +239,7 @@ OR
 // if(score=4){
 //     console.log("we loss the game");
 // }else{
-//     console.log("We won the game")                
+//     console.log("We won the game")
 // }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
@@ -248,7 +248,7 @@ OR
 //  /*conditional(ternary)operator*/      SYNTAX  =>  variablename=(condition)?value1:value2
 
 //  var age=12;
-// if(age>=18){   
+// if(age>=18){
 //     console.log("Can vote");
 //  } else {
 //         console.log("Can't vote");
@@ -324,8 +324,8 @@ OR
 
 
 // for( var i=1;i<=10;i++){
-//     // console.log(` 8x  i  =  8*i `); 
-//     // console.log( "8 X " + i +" = "+ 8*i) 
+//     // console.log(` 8x  i  =  8*i `);
+//     // console.log( "8 X " + i +" = "+ 8*i)
 // console.log(`${8}* ${i} = ${ 8* i }` )             /*template literals(template strings)
 // }
 
@@ -335,7 +335,7 @@ OR
 //  It eliminates the need of witing the same code again and again.
 
 //             //   (parameters)
-// function Sum(a,b){ 
+// function Sum(a,b){
 //     var total=a+b;
 //     console.log(total);
 // }
@@ -348,7 +348,7 @@ OR
 
 // function Sum(a,b){             /*FUNCTION EXPRESSION: simply function is assigned as a variable*/
 //     var total=a+b;
-//     console.log(total); 
+//     console.log(total);
 // }
 //  var funExp =Sum(4,4);
 //  funExp;
@@ -385,7 +385,7 @@ OR
 // myName="sakshi";
 // console.log(myName);
 
-// ========================================================= 
+// =========================================================
 
 //  let myName="vrinda";
 // console.log(myName);       LET
@@ -471,7 +471,7 @@ OR
 // console.log(animals.length);
 
 // console.log(animals.pop());        /*removes element of an array from the end*/
-// console.log(animals);   
+// console.log(animals);
 // console.log(animals.length);
 
 // console.log(animals.shift());         /*removes element of an array from start*/
@@ -540,7 +540,7 @@ OR
 // if(num1>=num2&&num1>=num3){
 //     console.log(" largest number is: "+ num1)
 // }else if(num2>=num1&&num2>=num3){
-//     console.log(" largest number is: "+ num2) 
+//     console.log(" largest number is: "+ num2)
 // }else {
 //     console.log(" largest number is: "+ num3)
 
@@ -809,8 +809,127 @@ OR
 
 
 
-const number = parseInt(34.5);
+// const number = parseInt(34.5);
 
-const result = number.toString(2);
+// const result = number.toString(2);
 
-console.log('Binary:' + 'of ' + result);
+// console.log('Binary:' + 'of ' + result);
+
+
+Ques:Progamm to print current date  dd/mm/yyyy
+
+var today= new Date();
+var dd=today.getDate();
+var mm=today.getMonth();
+var yyyy=today.getFullYear();
+if(dd<10){
+    dd='0'+dd;
+}
+if(mm<10){
+    mm='0'+mm;
+}
+today=dd+'-'+mm+'-'+yyyy;
+console.log(today);
+
+
+// "SPREAD OPERATOR"
+
+// arr = [1, 3, 4, 1, 3]
+
+// function avg(a,b,c){
+//     return a+b+c/3;
+// }
+// let a=avg(...arr);
+// console.log(a);
+
+
+// let b=[4,5,7,8]
+// console.log(b);
+
+// let b=[4,5,7,...arr,8]
+// console.log(b);
+
+// let c=[...arr]                                        /*copy of an array*/
+// console.log(c)
+
+
+// var obj1 = {
+//     name: 'vrinda',
+//     age: 25,
+//     favIceCream :'vanilla'
+// }
+// console.log(obj1);
+//  var obj2={}
+// obj2.name=obj1.name
+// obj2.age=obj1.age
+// obj2.favIceCream='chocolate'
+// console.log(obj2)
+
+
+// SPREAD OPERATOR
+//  let obj2={...obj1,favIceCream:'chocolate'}
+//  console.log(obj2)
+
+Ques:check whether the number is positive or negavtive
+var a=0;
+function positive_num(a){
+ return a;
+}positive_num(1);
+if(a>0) {
+    console.log("The number is positive");
+       }
+       else if(a==0){
+        console.log("The number is neither  negative nor positive");
+       }else{
+console.log("The number is negative");
+}
+
+  OR
+
+var num=0;
+if(num>0){
+    console.log("the numnber is positive")
+}else if(num==0){
+    console.log("the number is neither positive nor negative");
+}else{
+    console.log("the number is negative");
+}
+
+
+Ques:print the greatest number of the three numbers
+
+var num1=0;
+var num2=1;
+var num3=10;
+if(num1>num2&&num1>num3){
+    console.log(" The greatest number is :"+num1);
+}else if(num2>num1&&num2>num3){
+    console.log(" The greatest number is :"+ num2);
+}else{
+    console.log(" The greatest number is : "+num3);
+}
+
+Ques:Program for factorial
+
+var num=-1;
+if(num<0){
+    console.log("The factorial does not exist")
+}else if(num==0){
+    console.log("The factorial of zero is 1")
+}else{
+    var fact=1;
+    for(i=1;i<=num;i++){
+        fact=fact*i;
+    }
+    console.log("The factorial of "+num+ " is "+fact)
+}
+
+
+
+Ques:sum of n natural numbers
+var num=188;
+let sum=0;
+for(i=0;i<=num;i++){
+    sum=sum+i;
+}
+console.log(sum)

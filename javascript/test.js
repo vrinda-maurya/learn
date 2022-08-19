@@ -113,3 +113,10 @@ bioData.push(kopalBioData);
 // console.log(Object.keys(kopalBioData).length);
 
 
+function print_current_page()
+{
+window.print();
+}
+
+
+
